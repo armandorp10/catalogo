@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1 align="center" >Especies</h1>
+    {% for especie in lista_especies %}
+    <div>
+        <div> Nombre: {{especie.nombre}}</div>
+        <img src="/{{especie.foto}}" width="400" height="300" >
+    </div>
+    {% endfor %}
+</body>
+</html>
