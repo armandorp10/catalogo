@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'catalogoApp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'catalogo',
-        'USER':'postgres',
-        'PASSWORD':'',
-        'HOST':'127.0.0.1',
+        'NAME': 'd7pojp1fctquh8',
+        'USER':'lpzifgyqbkuaww',
+        'PASSWORD':'4e27a2c41ee8ee1d610f28c1b7574209541073d6fdb7b0ae267b601ad7e68713',
+        'HOST':'ec2-23-21-197-175.compute-1.amazonaws.com',
         'PORT':'5432',
     }
 }
