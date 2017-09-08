@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2617ad5d-6760-4c01-99f7-6b3a82c9bca6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalogoApp/urls.py" afterPath="$PROJECT_DIR$/catalogoApp/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalogoApp/settings.py" afterPath="$PROJECT_DIR$/catalogoApp/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalogoApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="27" column="89" lean-forward="true" selection-start-line="27" selection-start-column="89" selection-end-line="27" selection-end-column="89" />
+            <state relative-caret-position="136">
+              <caret line="59" column="10" lean-forward="true" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalogoApp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -78,8 +78,8 @@
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/catalogoApp/wsgi.py" />
-        <option value="$PROJECT_DIR$/catalogoApp/settings.py" />
         <option value="$PROJECT_DIR$/catalogoApp/urls.py" />
+        <option value="$PROJECT_DIR$/catalogoApp/settings.py" />
       </list>
     </option>
   </component>
@@ -124,11 +124,6 @@
               <item name="catalogoApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="catalogoApp" type="462c0819:PsiDirectoryNode" />
               <item name="catalogo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="catalogoApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="catalogoApp" type="462c0819:PsiDirectoryNode" />
-              <item name="catalogoApp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,24 +245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalogoApp/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="27" column="89" lean-forward="true" selection-start-line="27" selection-start-column="89" selection-end-line="27" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalogoApp/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="e#228#237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalogo/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -290,6 +267,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalogoApp/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="e#228#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalogoApp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="59" column="10" lean-forward="true" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
           <folding />
         </state>
       </provider>
