@@ -16,8 +16,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalogoApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="27" column="89" lean-forward="true" selection-start-line="27" selection-start-column="89" selection-end-line="27" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -212,8 +212,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalogoApp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="27" column="89" lean-forward="true" selection-start-line="27" selection-start-column="89" selection-end-line="27" selection-end-column="89" />
           <folding />
         </state>
       </provider>
