@@ -12,3 +12,4 @@ PyMySQL==0.7.11
 pytz==2017.2
 static3==0.7.0
 virtualenv==15.1.0
+whitenoise==3.3.0

@@ -1,9 +1,0 @@
-
-psql -U postgres -h localhost ;
-
-create database mydb;
-
-\l          --> mostrar todas las db 
-\c mydb     --> entrar a mi db 
-\dt         --> listar todas las tablas 
-\d (tabla)  --> Ver el detalle de una tabla  

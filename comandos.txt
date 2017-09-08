@@ -1,9 +1,0 @@
-
--> django-admin startproject galeria ---> arrancar proyecto
--> pip install mysql-python          ---> instalar package MySQL -- mio 
--> python manage.py migrate          ---> instalar dependencias INSTALLED_APPS
--> python manage.py runserver        ---> Correr servidor 
--> python manage.py makemigrations (aqui el modelo)   ---> Recrear el archivo de migracion para el modelo
--> python manage.py sqlmigrate (aqui el modelo) (aqui el numero de migracion) ---> Ejecutar el numero de la migracion
--> python manage.py createsuperuser ---> crear el usuario admin    
-
