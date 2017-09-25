@@ -147,7 +147,7 @@ fauna y flora que se conservan en la Reserva Natural</p>
 
             {% for especie in especies %}
                 <div class="col-lg-4 col-sm-6">
-                  <a class="portfolio-box" href="/{{especie.foto}}">
+                  <a class="portfolio-box" href="/{{especie.foto}}" onclick="return abrir_modal('{% url 'detalle_especie' especie.id %}')">
                     <img class="img-fluid" src="/{{especie.foto}}" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
