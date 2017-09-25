@@ -1,0 +1,13 @@
+.img-responsive {
+    margin: 0 auto;
+}
+
+.col-centrada{
+    margin: 0 auto;
+}
+
+.label_filtro{
+    color: white;
+    text-align: right;
+    font-size: 15px;
+}

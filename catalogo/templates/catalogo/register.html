@@ -1,0 +1,49 @@
+{# Load the tag library #}
+{% load bootstrap3 %}
+{% load static %}
+
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript jquery=1 %}
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+  </head>
+
+  <body>
+{% block content %}
+    <div class="row">
+        <div class="col-md-6 col-sm-offset-3">
+            <div class="page-header">
+                <h2>Registro</h2>
+            </div>
+        <form method="post" action="" enctype="multipart/form-data">
+            {% csrf_token %}
+            {% bootstrap_field form.nombre %}
+            {% bootstrap_field form.apellido %}
+            {% bootstrap_field form.foto %}
+            {% bootstrap_field form.pais_origen %}
+            {% bootstrap_field form.ciudad %}
+            {% bootstrap_field form.comentario_interes %}
+            {% bootstrap_field form.email %}
+            {% bootstrap_field form.nombre_usuario %}
+            {% bootstrap_field form.clave %}
+            {% bootstrap_field form.confirme_clave %}
+            {% buttons %}
+                <input type="submit" value="Registrar" class="btn btn-primary"/>
+                <a href="../" class="btn btn-primary">Cancelar</a>
+            {% endbuttons %}
+            </form>
+        </div>
+    </div>
+{% endblock %}
+  </body>
+
+</html>
