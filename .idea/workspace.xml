@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2617ad5d-6760-4c01-99f7-6b3a82c9bca6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalogo/templates/catalogo/index.html" afterPath="$PROJECT_DIR$/catalogo/templates/catalogo/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,18 +48,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalogo/templates/catalogo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="152" column="63" lean-forward="true" selection-start-line="152" selection-start-column="63" selection-end-line="152" selection-end-column="63" />
+            <state relative-caret-position="154">
+              <caret line="157" column="46" lean-forward="false" selection-start-line="157" selection-start-column="46" selection-end-line="157" selection-end-column="46" />
               <folding>
                 <element signature="e#3755#5448#0#HTML" expanded="false" />
-                <element signature="n#if#1;n#!!top" expanded="false" />
-                <element signature="e#8044#8051#1#HTML" expanded="true" />
-                <element signature="e#8135#8142#1#HTML" expanded="true" />
-                <element signature="e#8675#8682#1#HTML" expanded="true" />
-                <element signature="e#8766#8773#1#HTML" expanded="true" />
-                <marker date="1506363525584" expanded="false" signature="10159:10734" ph="..." />
-                <marker date="1506363525584" expanded="false" signature="10776:11351" ph="..." />
-                <marker date="1506363525584" expanded="false" signature="11393:11968" ph="..." />
+                <marker date="1506364311632" expanded="false" signature="9131:9706" ph="..." />
+                <marker date="1506364311632" expanded="false" signature="9748:10323" ph="..." />
+                <marker date="1506364311632" expanded="false" signature="10365:10940" ph="..." />
               </folding>
             </state>
           </provider>
@@ -513,18 +509,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalogo/templates/catalogo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="152" column="63" lean-forward="true" selection-start-line="152" selection-start-column="63" selection-end-line="152" selection-end-column="63" />
+        <state relative-caret-position="154">
+          <caret line="157" column="46" lean-forward="false" selection-start-line="157" selection-start-column="46" selection-end-line="157" selection-end-column="46" />
           <folding>
             <element signature="e#3755#5448#0#HTML" expanded="false" />
-            <element signature="n#if#1;n#!!top" expanded="false" />
-            <element signature="e#8044#8051#1#HTML" expanded="true" />
-            <element signature="e#8135#8142#1#HTML" expanded="true" />
-            <element signature="e#8675#8682#1#HTML" expanded="true" />
-            <element signature="e#8766#8773#1#HTML" expanded="true" />
-            <marker date="1506363525584" expanded="false" signature="10159:10734" ph="..." />
-            <marker date="1506363525584" expanded="false" signature="10776:11351" ph="..." />
-            <marker date="1506363525584" expanded="false" signature="11393:11968" ph="..." />
+            <marker date="1506364311632" expanded="false" signature="9131:9706" ph="..." />
+            <marker date="1506364311632" expanded="false" signature="9748:10323" ph="..." />
+            <marker date="1506364311632" expanded="false" signature="10365:10940" ph="..." />
           </folding>
         </state>
       </provider>

@@ -143,22 +143,24 @@ fauna y flora que se conservan en la Reserva Natural</p>
     <section class="p-0" id="portfolio">
       <div class="container-fluid">
         <div class="row no-gutter popup-gallery">
-          <div class="col-lg-4 col-sm-6">
 
-        {% for especie in especies %}
-              <a class="portfolio-box" href="/{{especie.foto}}" onclick="return abrir_modal('{% url 'detalle_especie' especie.id %}')">
-                <img class="img-fluid" src="/{{especie.foto}}" alt="">
-                <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                      <div class="project-category text-faded">
-                        {{especie.categoria.nombre}}
-                      </div>
-                      <div class="project-name">
-                        {{especie.nombre}}
-                      </div>
+
+            {% for especie in especies %}
+                <div class="col-lg-4 col-sm-6">
+                  <a class="portfolio-box" href="/{{especie.foto}}">
+                    <img class="img-fluid" src="/{{especie.foto}}" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                          <div class="project-category text-faded">
+                            {{especie.categoria.nombre}}
+                          </div>
+                          <div class="project-name">
+                            {{especie.nombre}}
+                          </div>
+                        </div>
                     </div>
+                 </a>
                 </div>
-             </a>
             <!--div class="col-md-3 col-sm-6 col-lg-3" style="padding:0 5px 0 5px ;">
                <div class="panel panel-default" style="padding:0; height: 530px;">
                    <div class="panel-heading" style ="text-align: center; ">
@@ -181,28 +183,6 @@ fauna y flora que se conservan en la Reserva Natural</p>
                </div>
             </div-->
         {% endfor %}
-        <br/>
-            {% if especies.has_other_pages %}
-            <ul class="pagination">
-                {% if especies.has_previous %}
-                    <li><a href="?page={{ especies.previous_page_number }}">&laquo;</a></li>
-                {% else %}
-                    <li class="disabled"><span>&laquo;</span></li>
-                {% endif %}
-                {% for i in especies.paginator.page_range %}
-                    {% if users.number == i %}
-                        <li class="active"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
-                    {% else %}
-                        <li><a href="?page={{ i }}">{{ i }}</a></li>
-                    {% endif %}
-                {% endfor %}
-                {% if especies.has_next %}
-                    <li><a href="?page={{ especies.next_page_number }}">&raquo;</a></li>
-                {% else %}
-                    <li class="disabled"><span>&raquo;</span></li>
-                {% endif %}
-            </ul>
-        {% endif %}
             <!--a class="portfolio-box" href="images/img/portfolio/fullsize/1.jpg">
               <img class="img-fluid" src="images/img/portfolio/thumbnails/1.jpg" alt="">
               <div class="portfolio-box-caption">
@@ -216,7 +196,7 @@ fauna y flora que se conservan en la Reserva Natural</p>
                 </div>
               </div>
             </a-->
-          </div>
+
           <div id="popup1" class="modal fade" role="dialog"></div>
           <!--div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="images/img/portfolio/fullsize/2.jpg">
